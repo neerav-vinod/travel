@@ -1,0 +1,517 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Noto Sans Georgian', sans-serif; 
+    color: rgba(0, 0, 0, 0.614);
+}
+
+.navhead{
+    margin-top:20px ;
+}
+
+h1{
+    margin-top: 30px;
+  text-align: center;
+}
+
+.navtext{
+    font-weight: bold;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+
+.navbar ul li{
+    display: inline-block;
+    padding: 7px;
+}
+
+.icons{
+    display: flex;
+    margin: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+/* Main Section */
+
+.main{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+}
+.img2{
+    margin-top: 20px;  
+    position: relative;
+    background-image: url('https://www.breastcancerfoundation.org.nz/images/assets/49774/10');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+
+}
+
+
+.article{
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 650px;
+    width: 650px;
+}
+
+.listings{
+    height: 630px;
+    width: 295px;
+    
+}
+
+.img1{
+    position: relative;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-B8JZa5Q3AqM%2FUQgN5l8IfFI%2FAAAAAAAAjxs%2FAJ1OFeYYfwg%2Fs1600%2Feiffel-tower-at-night-paris-france.jpg&f=1&nofb=1&ipt=dcbce288f33746d6fbeaeb2d12a9a6a8b6a9fa50b50dd8a48b815a893abab88f&ipo=images');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.imgt1{
+    position: absolute;
+    top:250px;
+    margin-left:20px;
+    color: azure;
+    text-shadow: 3px 4px 7px black;
+    
+}
+
+.imgt2{
+    position: absolute;
+    top:220px;
+    margin-left:20px;
+    color: azure;
+    text-shadow: 3px 4px 7px black;
+    
+}
+
+.bimage{
+    height: 450px;
+    width: 650px;
+    background-color: azure;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gannett-cdn.com%2Fpresto%2F2018%2F12%2F22%2FUSAT%2Ff3cd8ff2-d50c-49cd-bb2e-02eea008ab66-GettyImages-480099052.jpg%3Fcrop%3D2120%2C1193%2Cx0%2Cy221%26width%3D2120%26height%3D1193%26format%3Dpjpg%26auto%3Dwebp&f=1&nofb=1&ipt=3c6110ad2540da88c0a10827ad4bab226f76c186b8fd96ced76f5ab347ce0b82&ipo=images');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+} 
+
+
+.container{
+    justify-content: center;
+}
+
+.col{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+
+.picture{
+    height:200px;
+    width: 400px;
+    background-color: blue;
+}
+
+.col-4{
+    padding: 20px;
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+   
+}
+
+.picture{
+    width: 400px;
+    height: 200px;
+}
+
+.pic1{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fhandluggageonly.co.uk%2Fwp-content%2Fuploads%2F2017%2F12%2FLocals-Guide-to-Vienna-Austria.jpg%3Ffit%3D1600%252C1067%26ssl%3D1&f=1&nofb=1&ipt=81b06bed6d456b15b248aa1fecebc6fc63b57cc6e9fa834172e3c25c256430a8&ipo=images');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.pic2{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vero4travel.com%2Fwp-content%2Fuploads%2F2019%2F12%2Falpes-franceses-03.jpg&f=1&nofb=1&ipt=ef49921cb4c73bcfab9d3a067699c3c59c87181fd0a15c496a4b21fdcedaea3c&ipo=images');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.pic3{
+    background-image: url('https://wallpapercave.com/wp/wp4439395.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.text{
+    margin-top: 200px;
+}
+
+.cards{
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.city {
+    
+     height: 400px;
+     width: 250px;
+     padding: 20px;
+     margin: 20px;
+}
+
+.city1{
+    background-image: url('https://gringajourneys.com/wp-content/uploads/2017/04/lisbon-382322-2.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5 black;
+}
+
+.lisbon{
+    position: absolute;
+    top:200px;
+    left:280px;
+    color:white;
+    text-shadow: 3px 4px 7px black;
+    
+}
+
+.ull{
+    position: absolute;
+    height: 5px;
+    width: 30px;
+    background-color: white;
+    top:240px;
+    left:310px;
+}
+
+.city2{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc1.staticflickr.com%2F3%2F2307%2F2418544214_683cc2181a_b.jpg&f=1&nofb=1&ipt=a1aa65b6723dc0d63507926461877df4a5383db5622f9ac98b0a70667cb72308&ipo=images');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5 black;
+}
+
+.ul0{
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background-color:rgba(0, 0, 0, 0.521); 
+    margin-left: 730px;
+}
+
+.edenburg{
+    position: absolute;
+    top:200px;
+    left:551px;
+    color: white;
+    text-shadow: 3px 4px 7px black;
+}
+
+.ule{
+    position: absolute;
+    height: 5px;
+    width: 30px;
+    background-color: white;
+    top:240px;
+    left:600px; 
+}
+
+.city3{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.barcelonaguidebureau.com%2Fwp-content%2Fuploads%2F2019%2F05%2Fsagrada-familia-parque.jpeg&f=1&nofb=1&ipt=a48ba34252b41db117fc6dac0dc1b059a325041a1cc4db39501d4d0911bbfd4b&ipo=images');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5 black;
+}
+
+.barcelona{
+    position: absolute;
+    top:200px;
+    left:830px;
+    color: white;
+    text-shadow: 3px 4px 7px black;
+}
+
+.ulb{
+    position: absolute;
+    height: 5px;
+    width: 30px;
+    background-color: white;
+    top:240px;
+    left:890px; 
+}
+
+.city4{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F42%2Fe7%2F46%2F42e74609a91ff2b6b83e6cbe79eaa5cc.jpg&f=1&nofb=1&ipt=6ba25421cac5f7454e0de776cb96b79cb2a7a6fb2763678659ff46e24d304817&ipo=images');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5 black;
+}
+
+.johannesburg{
+    position: absolute;
+    top:200px;
+    left:1095px;
+    color: white;
+    text-shadow: 3px 4px 7px black;
+}
+
+.ulj{
+    position: absolute;
+    height: 5px;
+    width: 30px;
+    background-color: white;
+    top:240px;
+    left:1180px; 
+}
+
+/* Underline */
+
+.ul{
+    margin-left:700px;
+    width:100px;
+    height:7px;
+    background-color:rgba(0, 0, 0, 0.521);
+}
+
+/* news letter */
+
+.news{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;;
+}
+
+.nimage{
+    height: 500px;
+    width: 600px;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.thrillophilia.com%2Fimage%2Fupload%2Fs--8qTj52ur--%2Fc_fill%2Cf_auto%2Cfl_strip_profile%2Ch_800%2Cq_auto%2Cw_1300%2Fv1%2Fimages%2Fphotos%2F000%2F124%2F498%2Foriginal%2F1514377156_ebc_07.jpg.jpg%3F1514377156&f=1&nofb=1&ipt=877ae5f2404078ec2cca5e91861f03bac7211c1a7b5b9db489115fb34dbd558a&ipo=images');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5 black;
+}
+
+.nwrite{
+    height:500px;
+    width:600px;
+    padding:40px;
+    margin-top: 100px;
+}
+
+.tilesnews{
+    display: flex;
+    justify-content: center;
+}
+
+.titc{
+    margin: 10px;
+    height: 500px;
+    width: 600px;
+}
+
+.timg{
+    height: 300px;
+    width: 600px;
+}
+
+.im1{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh6.googleusercontent.com%2Fproxy%2F3DcEBWYAMlT1U61rSgkk9KMthg-v_PRu3gSuOeR52x3TjoXpEKrW1ib85ZSK-MlNflIVIxESGMh1WiaJSrOfDMPaZ3F-2yZaWUWWYWEDa1P19lwDaQf8vlhNUXs%3Ds0-d&f=1&nofb=1&ipt=92ea69280d2636602f0b7a413d720e6ce4cf1dc811869a5a25ece98572d0dca1&ipo=images');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5 black; 
+}
+
+.im2{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmagazine.foodpanda.my%2Fwp-content%2Fuploads%2Fsites%2F12%2F2020%2F03%2Fcropped-Top-6-Places-To-Go-for-Delicious-Northern-Indian-Food-in-KL-and-PJ.jpeg&f=1&nofb=1&ipt=cbba5650d58930f778d4b58e35a225e0a3186c66507601f6aae703fd3ea1cf79&ipo=images');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5 black; 
+}
+
+
+.footer{
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer nav ul li{
+    display: inline-block;
+    margin: 5px;
+}
+.article h2{
+    margin-top: 10px;;
+}
+
+.image:hover{
+    transform: scale(1.05);
+    transition: ease-in;
+}
+
+.bimage:hover{
+    transform: scale(1.05);
+}
+
+.picture:hover{
+    transform: scale(1.05);
+}
+
+.city:hover{
+    transform: scale(1.05);
+}
+
+.nimage:hover{
+    transform: scale(1.05);
+}
+
+.timg:hover{
+    transform: scale(1.05);
+}
+
+.pic7{
+    background-image: url('https://www.thetravelmagazine.net/wp-content/uploads/Macy-Gray.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+.pic8{
+    background-image: url('https://www.thetravelmagazine.net/wp-content/uploads/Osheaga.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.pic9{
+    background-image: url('https://www.thetravelmagazine.net/wp-content/uploads/Gian-Chess-Nozstock.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.pic10{
+    background-image: url('https://www.thetravelmagazine.net/wp-content/uploads/Credit-Paul-Johnson-Flightline-Bournemouth-Air-Festival-2022-v-1170x780.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.pic11{
+    background-image: url('https://www.thetravelmagazine.net/wp-content/uploads/Lightscape-The-Royal-Botanic-Garden-Sydney-SY23-1900x900-HR3-585x277.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.pic12{
+    background-image: url('https://www.thetravelmagazine.net/wp-content/uploads/Bongos-Bingo-action-4.jpeg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+nav a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+nav a::after{
+    content: "";
+    position: absolute;
+    height:3px;
+    width: 0px;
+    background-color: aqua;
+    right:0px;
+    left:15px;
+    top:25px;
+}
+
+nav a:hover{
+    width: 25px;
+    color:aqua;
+}
+
+.footer li:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:400px){
+
+    .navbar{
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+    }
+    nav{
+        margin-right: 29px;
+    }
+      
+   
+
+    .main{
+        flex-wrap: wrap;
+    }
+
+    .article{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+
+    .bimage{
+        
+        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperboat.com%2Fwp-content%2Fuploads%2F2020%2F08%2F22%2F53526%2Ficeland-01-920x1636.jpg&f=1&nofb=1&ipt=25df5f038b218b50666a92dc91d1bc31f863e8a94d373131439e2d5d4bedecfc&ipo=images');
+        height: 500px;
+        width: 340px;
+    }
+
+    .article h2{
+        
+        margin-right: 10px;
+    }
+
+    .article p{
+        padding-right: 10px;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+    }
+
+}
+
